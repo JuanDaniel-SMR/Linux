@@ -1,7 +1,6 @@
-# 🐧 50 Ejercicios Prácticos de Comandos Linux — Soluciones
+# 🐧 50 EJERCICIOS LINUX 🐧  - Resueltos
 
-> Si has trabajado en los 50 ejercicios prácticos de comandos Linux, aquí te traigo las soluciones. Veamos cómo se realizan estos comandos paso a paso.
-
+> Resolución de los 50 ejercicios de Linux de los días anteriores.
 ---
 
 ## 📁 1. Trabajando con Directorios y Archivos
