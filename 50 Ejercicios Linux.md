@@ -1,4 +1,4 @@
-# RELACIÓN 2.- EJERCICIOS COMANDOS LINUX
+# 🐧 50 EJERCICIOS LINUX 🐧 
 
 ## Trabajando con directorios y archivos
 
