@@ -37,6 +37,7 @@
 | `mkdir <nombre>` | Crea una carpeta |
 | `rmdir <nombre>` | Borra una carpeta vacía |
 | `mv <origen> <destino>` | Mueve o renombra ficheros y directorios |
+| `mv <nombre viejo> <nombre nuevo> | Renombra ficheros y directorios |
 
 ---
 
