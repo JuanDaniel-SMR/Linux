@@ -1,4 +1,4 @@
-# 🐧 Ejercicios de Comandos Linux
+# 🐧 100 Ejercicios de Comandos Linux - Resueltos
 
 Colección de 100 ejercicios prácticos para aprender comandos de Linux, organizados por temáticas.
 
