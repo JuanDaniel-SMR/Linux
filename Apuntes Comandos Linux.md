@@ -1,6 +1,6 @@
 # 🐧 Comandos Linux
 
-## Información del sistema
+## Sistema 
 
 | Comando | Descripción |
 |---------|-------------|
@@ -14,11 +14,16 @@
 | `date` | Muestra la fecha y hora actual |
 | `cal` | Muestra el calendario del mes actual |
 | `free` | Muestra la memoria disponible en el equipo |
-| ´df´ | Muestra el almacenamiento del equipo de forma detallada | 
+| `df` | Muestra el almacenamiento del equipo de forma detallada | 
+| `df -lh` | Muestra el almacenamiento del equipo con flags |
+| `md5sum` | Calcula y verifica firmas MD5 |
+| `reboot` | Reinicia el sistema | 
+| `sudo su` | Entras como root al sistema. |
+| `du -sh` | Muestra el espacio usado por un directorio. |
 
 ---
 
-## Navegación y sistema de ficheros
+## Navegación y sistema de ficheros y directorios.
 
 | Comando | Descripción |
 |---------|-------------|
@@ -30,7 +35,7 @@
 | `ls -a` | Incluye ficheros ocultos |
 | `ls -l` | Enseña los permisos de los ficheros y directorios |
 | `ls -F` | Ver los ficheros de un directorio |
-| `ls [0-9] | Ver ficheros y directorios
+| `ls [0-9]` | Ver ficheros y directorios
 | `tree` | Muestra carpetas y ficheros de forma esquematizada |
 | `file <fichero>` | Muestra información sobre un fichero |
 | `touch <nombre>` | Crea un fichero vacío |
@@ -39,6 +44,12 @@
 | `rmdir <nombre>` | Borra una carpeta vacía |
 | `mv <origen> <destino>` | Mueve o renombra ficheros y directorios |
 | `mv <nombre viejo> <nombre nuevo>` | Renombra ficheros y directorios |
+| `cp` | Copia ficheros y directorios |
+| `cp -r` | Copia un directorio y su contenido interior. |
+| `gzip` | Comprime un fichero. |
+| `sudo apt-get install` | Instala un paquete |
+| `sudo apt-get update` | Actualiza la lista de paquetes. | 
+| `sudo apt-get upgrade` | Actualiza todos los paquetes ya instalados. |
 
 ---
 
@@ -55,6 +66,15 @@
 
 ---
 
+## Enlaces 
+
+| Comando | Descripción |
+|---------|-------------|
+| `ln` | Crea un enlace duro |
+| `ln -s` | Crea un enlace simbólico |
+
+---
+
 ## Redirección y tuberías
 
 | Operador | Descripción |
@@ -63,6 +83,14 @@
 | `>` | Sobreescribe (machaca) el contenido de un fichero con la salida |
 | `>>` | Añade la salida al final de un fichero sin sobreescribirlo |
 | `<`| Añade la salida del fichero al comando |
+| `find` | Busca ficheros y directorios (POR SU NOMBRE) |
+| `sort` | Ordena lineas de texto |
+| `grep` | Busca lineas de texto DENTRO de los ficheros. |
+| `wc` | Cuentas las lineas dentro de un fichero. |
+| `wc -w` | Cuentas las palabras dentro de un fichero. |
+| `cut` | Extrae texto de un fichero por partes |
+| `sed` | Edita texto de un fichero |
+| `time` | Mide el tiempo de ejecución de un comando |
 
 ---
 
@@ -70,6 +98,8 @@
 
 | Comando | Descripción |
 |---------|-------------|
+| `reboot` | Reinicia el sistema | 
+| `sudo su` | Entras como root al sistema. |
 | `exit` | Sale de la sesión actual |
 | `byobu-disable-prompt` + `exit` | Desactiva el modo Byobu (colores de `hollywood`, etc.) |
 
@@ -83,6 +113,10 @@
 | `sudo passwd <usuario>` | Cambia la contraseña de un usuario **(siendo ROOT)** |
 | `sudo adduser <usuario>`| Añade un usuario al sistema. |
 | `sudo deluser <usuario>`| Elimina un usuario del sistema. |
+| `sudo useradd <usuario>`| Añade un usuario al sistema. (2)  |
+| `sudo userdel -r <usuario>`| Elimina un usuario del sistema. y su directorio home |
+| `id` | Muestra el UID y GID de un usuario |
+| `chgrp` | Cambia el grupo de un fichero o directorio |
 | `groupadd <grupo>` | Crea un nuevo grupo. |
 | `groupdel <grupo>` | Elimina un grupo existente. |
 | `groupmod -n <nuevo_nombre> <viejo_nombre>`| Modifica el nombre de un grupo. |
@@ -92,6 +126,7 @@
 ---
 
 ## Comandos sobre procesos 
+
 | Comando | Descripción |
 |---------|-------------|
 | `ps` | Lista de los procesos activos en el sistema |
@@ -109,6 +144,9 @@
 | `fg` | Envia un proceso a primer plano |
 | `uptime`| Indica cuanto tiempo lleva encendido el sistema y la carga media de procesos | 
 | `free`| Muestra el estado de la memoria RAM y del SWAP. |
+| `sleep` | Pausa temporalmente la ejecución de un proceso. |
+| `seq` | Genera una secuencia de numeros. |
+| `for` | Crea un bucle en shell. |
 
 ---
 
@@ -116,6 +154,27 @@
 | Comando | Descripción |
 |---------|-------------|
 | `ls -l` | Lista de los directorios y ficheros con los permisos que tienen. |
+| `chmod` | Cambia los permisos de ficheros y directorios |
+| `umask` | Muestra/Establece los permisos por defecto |
+
+---
+
+## Redes
+
+| Comando | Descripción |
+|---------|-------------|
+| `ping` | Comprueba la conectividad con un host |
+| `ip a` | Muestra la configuración de red. |
+| `netstat` | Muestra conexiones de red activas. |
+| `ssh` | Conectarse a un servidor remoto (Medusa por ejemplo) |
+| `wget`| Descarga ficheros de internet. |
+| `dig` | Consulta registros DNS de un host. |
+| `traceroute` | Muestra la ruta de un paquete. |
+| `sftp` | Conexión segura para transferencia de ficheros. |
+| `host` | Resuelve un dominio a su IP. |
+| `systemctl status` | Muestra el estado de un servicio. |
+| `systemctl restart` | Reinicia un servicio. |
+| `screen`| Inicia una sesion de terminal persistente. |
 
 ---
 
