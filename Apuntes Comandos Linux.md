@@ -1,5 +1,21 @@
 # 🐧 Comandos Linux
 
+## Índice
+ 
+1. [Sistema](#sistema)
+2. [Navegación y sistema de ficheros y directorios](#navegación-y-sistema-de-ficheros-y-directorios)
+3. [Lectura y escritura de ficheros](#lectura-y-escritura-de-ficheros)
+4. [Enlaces](#enlaces)
+5. [Redirección y tuberías](#redirección-y-tuberías)
+6. [Comandos de sesión](#comandos-de-sesión)
+7. [Usuarios y Grupos](#usuarios-y-grupos)
+8. [Comandos sobre procesos](#comandos-sobre-procesos)
+9. [Permisos](#permisos)
+10. [Redes](#redes)
+11. [Comandos de entretenimiento 🎉](#comandos-de-entretenimiento-)
+ 
+---
+
 ## Sistema 
 
 | Comando | Descripción |
