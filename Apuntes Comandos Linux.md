@@ -79,6 +79,7 @@
 | `echo <texto>` | Escribe texto (en pantalla o redirigido a un fichero) |
 | `head <fichero>` | Muestra las primeras líneas de un fichero |
 | `tail <fichero>`| Muestra las ultimas líneas de un fichero |
+| `nano <fichero>` | Editor de texto para ficheros. |
 
 ---
 
