@@ -148,9 +148,9 @@
 |---------|-------------|
 | `ps` | Lista de los procesos activos en el sistema |
 | `ps aux` | Lista de los procesos detallados con usuario, CPU y memoria. |
-| `ps -ef` | Ver TODOS los procesos del sistema |
+| `ps -ef` | Ver TODOS los procesos del sistema y sus relaciones padre-hijo |
 | `top` | Lista en tiempo real y dinámica de los procesos. | 
-| `htop` | Versión mejorada del htop que puede gestionar los procesos. |
+| `htop` | Versión mejorada del comando top que puede gestionar los procesos. |
 | `pstree` | Muestra los procesos en forma de arbol (igual que el comando tree) |
 | `pgrep <nombre>` | Busca el PID del proceso basado en su nombre. |
 | `kill` | Elimina un proceso |
