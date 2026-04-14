@@ -126,6 +126,9 @@
 
 | Comando | Descripción |
 |---------|-------------|
+| `who` | Observa cuales son los usuarios conectados y cada una de sus sesiones activas. |
+| `w` | Observa los usuarios conectados individualmente. |
+| `users` | Dice los usuarios conectados en texto plano, sin información extra. |
 | `sudo pkill -f sshd` | ⚠️ Echa a todos los usuarios del servidor **(solo ROOT)** |
 | `sudo passwd <usuario>` | Cambia la contraseña de un usuario **(siendo ROOT)** |
 | `sudo adduser <usuario>`| Añade un usuario al sistema. |
