@@ -16,7 +16,7 @@
 11. 🎉 [Comandos de entretenimiento](#comandos-de-entretenimiento-)
  
 ---
-🖥️ ##  Sistema 
+##  Sistema 
 
 | Comando | Descripción |
 |---------|-------------|
@@ -39,7 +39,7 @@
 
 ---
 
-## 📁 Navegación y sistema de ficheros y directorios.
+## Navegación y sistema de ficheros y directorios.
 
 | Comando | Descripción |
 |---------|-------------|
@@ -69,7 +69,7 @@
 
 ---
 
-## 📖 Lectura y escritura de ficheros
+## Lectura y escritura de ficheros
 
 | Comando | Descripción |
 |---------|-------------|
@@ -83,7 +83,7 @@
 
 ---
 
-## 🔗 Enlaces 
+## Enlaces 
 
 | Comando | Descripción |
 |---------|-------------|
@@ -92,7 +92,7 @@
 
 ---
 
-## 🔀 Redirección y tuberías
+## Redirección y tuberías
 
 | Operador | Descripción |
 |----------|-------------|
@@ -111,7 +111,7 @@
 
 ---
 
-## 🔐 Comandos de sesión
+## Comandos de sesión
 
 | Comando | Descripción |
 |---------|-------------|
@@ -122,7 +122,7 @@
 
 ---
 
-## 👥 Usuarios y Grupos 
+## Usuarios y Grupos 
 
 | Comando | Descripción |
 |---------|-------------|
@@ -145,7 +145,7 @@
 
 ---
 
-## ⚙️ Comandos sobre procesos 
+## Comandos sobre procesos 
 
 | Comando | Descripción |
 |---------|-------------|
@@ -170,7 +170,7 @@
 
 ---
 
-## 🔒 Permisos 
+## Permisos 
 | Comando | Descripción |
 |---------|-------------|
 | `ls -l` | Lista de los directorios y ficheros con los permisos que tienen. |
@@ -179,7 +179,7 @@
 
 ---
 
-## 🌐 Redes
+## Redes
 
 | Comando | Descripción |
 |---------|-------------|
@@ -198,7 +198,7 @@
 
 ---
 
-## 🎉 Comandos de entretenimiento
+## Comandos de entretenimiento
 
 | Comando | Descripción |
 |---------|-------------|
