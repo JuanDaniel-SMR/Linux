@@ -3,7 +3,7 @@
  
 ## Índice
  
-1. 🖥️ [Sistema](#sistema)
+1. 🖥️ [Sistema](#🖥️sistema)
 2. 📁 [Navegación y sistema de ficheros y directorios](#navegación-y-sistema-de-ficheros-y-directorios)
 3. 📖 [Lectura y escritura de ficheros](#lectura-y-escritura-de-ficheros)
 4. 🔗 [Enlaces](#enlaces)
