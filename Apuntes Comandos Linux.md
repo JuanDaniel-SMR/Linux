@@ -36,6 +36,7 @@
 | `reboot` | Reinicia el sistema | 
 | `sudo su` | Entras como root al sistema. |
 | `du -sh` | Muestra el espacio usado por un directorio. |
+| `env` | Muestra todas las variables del sistema. |
 
 ---
 
@@ -80,6 +81,7 @@
 | `head <fichero>` | Muestra las primeras líneas de un fichero |
 | `tail <fichero>`| Muestra las ultimas líneas de un fichero |
 | `nano <fichero>` | Editor de texto para ficheros. |
+| `gedit <fichero>` | Editor de texto de GNOME. |
 
 ---
 
