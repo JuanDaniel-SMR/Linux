@@ -29,7 +29,7 @@ elif [ "$op" = MULTIPLICAR ]; then
 elif [ "$op" = DIVIDIR ]; then
         echo "Has elegido dividir, escriba el primer número."
         read divd1
-        echo "Tu primer número es $suma1, escriba el siguiente numero."
+        echo "Tu primer número es $divd1, escriba el siguiente numero."
         read divd2
         divd=$((divd1 / divd2))
         echo "El resultado de tu división es $divd."
