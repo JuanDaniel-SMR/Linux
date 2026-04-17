@@ -1,13 +1,40 @@
- 1 #!/bin/bash
- 2 echo "Bienvenido a mi calculadora."
- 3 echo "Deseas SUMAR, RESTAR, MULTIPLICAR o DIVIDIR?"
- 4 read op
- 5 if ["$op" = SUMAR]; then
- 6         echo "Has elegido sumar, escriba el primer número."
- 7         read suma1
- 8         echo "Tu primer número es $suma1, escriba el siguiente numero."
- 9         read suma2
-10         suma =$((suma1 + suma2))
-11         echo "El resultado de tu suma es $suma."
-12 fi
-13
+#!/bin/bash
+echo "Bienvenido a mi calculadora."
+echo "Deseas SUMAR, RESTAR, MULTIPLICAR o DIVIDIR?"
+read op
+if [ "$op" = SUMAR ]; then
+	echo "Has elegido sumar, escriba el primer número."
+	read suma1
+	echo "Tu primer número es $suma1, escriba el siguiente numero."
+	read suma2
+	suma=$((suma1 + suma2))
+	echo "El resultado de tu suma es $suma."
+
+elif [ "$op" = RESTAR ]; then
+        echo "Has elegido restar, escriba el primer número."
+        read resta1
+        echo "Tu primer número es $resta1, escriba el siguiente numero."
+        read resta2
+        resta=$((resta1 - resta2))
+        echo "El resultado de tu resta es $resta."
+
+elif [ "$op" = MULTIPLICAR ]; then
+        echo "Has elegido multiplicar, escriba el primer número."
+        read mult1
+        echo "Tu primer número es $mult1, escriba el siguiente numero."
+        read mult2
+        mult=$((mult1 * mult2))
+        echo "El resultado de tu multiplicación es $mult."
+
+elif [ "$op" = DIVIDIR ]; then
+        echo "Has elegido dividir, escriba el primer número."
+        read divd1
+        echo "Tu primer número es $suma1, escriba el siguiente numero."
+        read divd2
+        divd=$((divd1 / divd2))
+        echo "El resultado de tu división es $divd."
+
+else
+	echo "Opción no valida. Solo puedes elegir: SUMAR, RESTAR, MULTIPLICAR o DIVIDIR."
+	echo "Recuerda tener cuidado con las mayúsculas."
+fi
