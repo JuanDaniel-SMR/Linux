@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# crea un directorio SI NO EXISTE YA, si existe no lo crea bro
+# crea un directorio SI NO EXISTE YA, si existe no lo crea
 if [ ! -d "HOY" ]; then
     mkdir HOY
     echo "Directorio HOY creado."
@@ -10,7 +10,7 @@ fi
 
 cd HOY
 
-# crea el archivo y pone la fecha, si no esta lo reescribe bro.
+# crea el archivo y pone la fecha, si no esta lo reescribe
 if [ ! -f "Hora.txt" ]; then
     touch Hora.txt
     echo "Archivo Hora.txt creado."
